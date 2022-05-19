@@ -1,0 +1,324 @@
+body
+{
+	background: url("Fond_Page_2.png") scroll top no-repeat;
+	background-size: 1200px;
+	background-color : #142b5d;
+}
+
+/* header */
+
+.bloc_entete
+{
+	position: fixed;
+	right: 0;
+	left:0;
+	top: 10px;
+
+	display: flex;
+	
+	justify-content: space-around;
+
+	max-width: 1200px;
+	margin: auto;
+
+	background-color : #142b5d;
+}
+
+.logo_entete
+{
+	border:none;
+	border-radius:10px;
+	max-width: 200px;
+	margin-left: 10px;
+}
+
+.logo_entete img
+{
+  max-width: 100%;
+  object-fit: contain;
+  margin: auto;
+}
+
+.logo_entete img:hover
+{
+	box-shadow: 6px 6px 3px black
+}
+
+.bloc_entete a
+{
+	color: #142b5d;
+	text-decoration: none;
+}
+
+.lien_page_1, .lien_page_2, .lien_page_3
+{
+	height: 30px;
+	width: 120px;
+
+	margin:  auto;
+	padding-top: 10px;
+
+	border: none;
+	border-radius: 10px;
+
+	text-align: center;
+
+	color: #142b5d;
+	background-color : white;
+}
+
+.lien_page_1:hover, .lien_page_2:hover, .lien_page_3:hover
+{
+	box-shadow: 6px 6px 3px black
+}
+
+
+/*section principale*/
+
+.section_principale                 
+{
+	display:flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 190px;
+	max-width: 1200px;
+	margin-left: 18.25%;
+	margin-right: 18.25%;
+}
+
+#installation 
+{
+	max-width: 1100px;	               
+	background-color : #142b5de0;
+
+	padding: 10px;
+	margin: 50px;
+
+	overflow: auto;
+
+	border-radius: 10px;
+	box-shadow: 6px 6px 3px black
+}
+
+.config_conseil
+{
+	max-width: 1100px;	               
+	background-color : #142b5de0;
+
+	padding: 10px;
+	margin: 50px;
+
+	overflow: auto;
+
+	border-radius: 10px;
+	box-shadow: 6px 6px 3px black
+}
+
+#premiere_partie
+{
+	max-width: 1100px;	               
+	background-color : #142b5de0;
+
+	padding: 10px;
+	margin: 50px;
+
+	overflow: auto;
+
+	border-radius: 10px;
+	box-shadow: 6px 6px 3px black
+}
+
+#video 
+{
+	display: flex;
+	flex-wrap: wrap;
+	align-self: center;
+	object-fit: contain;
+	justify-content: center;
+}
+
+.section_principale h1
+{
+	font-size: 150%;
+	color: #bbbbbb;
+	text-decoration: underline;
+}
+
+.section_principale h2
+{
+	font-size: 130%;
+	color: #bbbbbb;
+	margin: 20px;
+}
+
+.section_principale p, p+a
+{
+	font-size: 110%;
+	color: #bbbbbb;
+	margin-right: 50px;
+	margin-left: 20px;
+}
+
+#installation a, #installation li
+{
+	color: #bbbbbb;
+	text-decoration: none;
+}
+
+#installation a:hover
+{
+	font-style: oblique;
+}
+
+.config_conseil a, .config_conseil li
+{
+	color: #bbbbbb;
+	text-decoration: none;
+}
+
+.config_conseil a:hover
+{
+	font-style: oblique;
+}
+
+#premiere_partie a, #premiere_partie li
+{
+	color: #bbbbbb;
+	text-decoration: none;
+}
+
+#premiere_partie a:hover
+{
+	font-style: oblique;
+}
+
+	/* footer */
+
+.footer
+{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	margin: 10px;
+}
+
+.suite
+{
+	padding: 10px;
+	margin: auto;
+
+	color: #bbbbbb;
+	background-color : #142b5de0;
+
+	max-width: 100px;
+	min-height:  15px;
+
+	text-align: center; 
+
+	border-radius:10px;
+}
+
+.suite:hover
+{
+	box-shadow: 6px 6px 3px black
+}
+
+.suite a
+{
+	color: #bbbbbb;
+	text-decoration: none;
+}
+
+.retour
+{
+	padding: 10px;
+	margin: auto;
+	margin-top: 10px;
+
+	color: #bbbbbb;
+	background-color : #142b5de0;
+
+	max-width: 1180px;	/* 100% */
+	min-height:  15px;
+
+	text-align: center; 
+
+	border-radius:10px;
+}
+
+.retour:hover
+{
+	box-shadow: 6px 6px 3px black
+}
+
+.retour a
+{
+	color: #bbbbbb;
+	text-decoration: none;
+}
+
+.plan_du_site_et_contact
+{
+	padding: 10px;
+	margin: auto;
+	margin-top: 10px;
+
+	color: #bbbbbb;
+	background-color : #142b5de0;
+
+	max-width: 1150px;	/* 100% */
+	min-height:  250px;
+
+	border-radius:10px;
+
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.plan_du_site_et_contact a
+{
+	color: #bbbbbb;
+	text-decoration: none;
+}
+
+.titre_footer
+{
+	width: 100%;
+	height: 30px;
+}
+
+.page_d_accueil, .page1, .page2, .page3, .contact, .logo_iut
+{
+	max-width: 250px;	
+	max-height:  100px;
+
+	color: #bbbbbb;
+
+	padding: 10px;
+	margin: 5px;
+}
+
+.logo_iut
+{
+	width: 50px;
+	height: 50px;
+}
+
+.logo_iut img
+{
+  max-width: 100%;
+  object-fit: contain;
+  margin: auto;
+}
+
+em 
+{
+	font-size: 1.2em;
+	text-decoration: underline;
+	font-style: normal;	
+}
+
+
